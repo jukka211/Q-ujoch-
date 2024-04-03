@@ -20,7 +20,7 @@ body{
 .logo {
     mix-blend-mode: exclusion;
     position: absolute;
-    height:87vh;
+    height:92vh;
     display: flex;
   
     align-items: center;
@@ -212,10 +212,7 @@ body{
 }
 
 @media (min-width: 2888px) {
-    .logo{
-        top: 50%;
-        transform: translateY(-50%);
-    }
+    
     .one, .two, .three, .four, .five, .six, .sev, .eit, .nin, .ten, .el {
     font-size: 556pt;
     line-height: 520pt;
@@ -226,10 +223,7 @@ body{
     }}
     
 @media (width: 2240px) {
-    .logo{
-        top: 30%;
-        transform: translateY(-30%);
-    }
+    
     
     .one, .two, .three, .four, .five, .six, .sev, .eit, .nin, .ten, .el {
         font-size: 432pt;
