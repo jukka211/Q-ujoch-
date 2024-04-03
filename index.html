@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exp_5</title>
+  <link rel="stylesheet" href="style.css">
+ 
+  
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+
+   
+</head>
+
+<body>
+  <div class="container">
+  <div class="block1"></div>
+  <div class="block2"></div>
+  <div class="block3"></div>
+</div>
+<div class="text">Q:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The rhizome includes the best and the worst: potato and couchgrass, or the weed. Animal and plant, couchgrass is crabgrass. (Deleuze/Guattari 1977)</div>
+  <div class="Q">Q:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Paul is dead: Alles was sie schon immer und niemals über Verschwörungen wissen wollten</div>
+  <div class="Q2">Q:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Last night I dreamed the pet I never had was selling weed butter in the streets & heidi klum taught me gymnastics. </div>
+  <div class="Q3">Q:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A Racoon’s revenge: deadly cheese strips & the trippy licorice extravaganza</div>
+  <div class="description">YUKO ARAKI (JAP)<br>STEFAN TIEFENGRABER (AUT)<br>MORITZ MORAST (AUT)<br>
+    Lärm auf höchstem Niveau. Im Wirtshaus zur Schießhalle gastieren am 10. November drei Künstler*innen, die ständig auf der Suche nach neuen musikalischen Verbindungen zwischen experimenteller Elektronik, Industrial, Metal und Noise sind. qujOchÖ freut sich, dass Yuko Araki auf ihrer ausgedehnten Europa-Tournee einen Stopp in Linz einlegt. Unterstützung erhält sie an diesem Abend mit einem Live-Set von Stefan Tiefengraber und einem DJ-Set von Moritz Morast, die beide seit vielen Jahren über viele Ecken und Kanten mit der Linzer Musikszene verbunden sind (u. a. Tresor Linz, Mit Händen und Füßen, …).<br>
+    Tickets Vorverkauf: 10 Euro,<br> Tickets Abendkasse: 13 Euro</div>
+  <div class="logo">
+  <div class="el" id="translateElement11">Q:ujochö</div>
+  <div class="ten" id="translateElement10">Q:ujochö</div>
+  <div class="nin" id="translateElement9">Q:ujochö</div>
+  <div class="eit" id="translateElement8">Q:ujochö</div>
+  <div class="sev" id="translateElement7">Q:ujochö</div>
+  <div class="six" id="translateElement6">Q:ujochö</div>
+  <div class="five" id="translateElement5">Q:ujochö</div>
+  <div class="four" id="translateElement4">Q:ujochö</div>
+  <div class="three" id="translateElement3">Q:ujochö</div>
+  <div class="two" id="translateElement2">Q:ujochö</div>
+  <div class="one" id="translateElement">Q:ujochö</div>
+  </div>
+  <div class="text-bottom">A:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+43 732 21 67 13, Waldeggstraße 16, 4020 Linz (AUT)</div>
+
+ <div class="A">A:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fr, 10. November 2023, 20:30 Wirtshaus zur Schießhalle, Waldeggstraße 116, Linz</div>
+ <div class="A2">A:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mi, 22. Juni 2022, 16:00 Uhr, Interuniversitäre Einrichtung Wissenschaft und Kunst, Bergstraße 12a, Salzburg</div>
+ <div class="A3">A:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fr, 18. Jänner 2024, 20:30, Wirtshaus zur Schießhalle, Waldeggstraße 116, Linz</div>
+ 
+ <div class="archive"> Archive</div>
+ <div class="kontakt"> Contact</div>
+ 
+ <script>
+  // Function to set font size based on screen width
+  function setFontSize() {
+      var screenWidth = window.innerWidth;
+      var fontSize = screenWidth / 3.8; // You can adjust the divisor to control the ratio of font size to screen width
+      var elements = document.querySelectorAll('#translateElement, #translateElement2, #translateElement3, #translateElement4, #translateElement5, #translateElement6, #translateElement7, #translateElement8, #translateElement9, #translateElement10, #translateElement11');
+      elements.forEach(function(element) {
+          element.style.fontSize = fontSize + 'px';
+      });
+  }
+
+  // Call the function initially and whenever the window is resized
+  setFontSize();
+  window.addEventListener('resize', setFontSize);
+</script>
+ 
+
+ 
+<script src="sketch.js"></script>
+</body>
+</html>
