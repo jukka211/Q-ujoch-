@@ -118,26 +118,7 @@ body{
     mix-blend-mode: exclusion;
     
 }
-.Q:hover{
-    background-color: red;
-}
-.Q2:hover{
-    color:#000000;
-    background-color: white;
-}
-.Q3:hover{
-    background-color: #00FFFF;
-}
-.A:hover{
-    background-color: red;
-}
-.A2:hover{
-    color:#000000;
-    background-color: white;
-}
-.A3:hover{
-    background-color: #00FFFF;
-}
+
 
 .description {
     font-family:Helvetica-Medium;
@@ -192,10 +173,10 @@ body{
     z-index: 999;
 }
 .archive:hover {
-    background-color: #00FFFF;
+    text-decoration-line:underline;
 }
 .kontakt:hover{
-    background-color: #00FFFF;
+    text-decoration-line:underline;
 }
 .block1{
     z-index: 999;
