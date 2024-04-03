@@ -115,10 +115,7 @@ $(document).ready(function() {
 
 //$('.one, .two, .three, .four, .five, .six, .sev, .eit, .nin, .ten, .el, .Q, .Q2, .Q3, .A, .A2, .A3, .archive, .text, .kontakt ').css('color', '#FF00FF');
 
-$('.Q').click(function() {
-    $('.description').css('display', 'block');
-    
-});
+
 
 
 
