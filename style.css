@@ -241,8 +241,8 @@ mix-blend-mode: difference;
 width:96%;
 left:10px;
 z-index: -1;
-font-size: 14pt;
-line-height: 16pt;
+font-size: 12pt;
+line-height: 14pt;
 }
 
 .Q, .Q2, .Q3, .Q4, .Q5, .Q6, .Q7, .Q8, .Q9, .Q10, .text {
@@ -262,8 +262,8 @@ right:10px;
 }
 
 .archive, .kontakt {
-font-size: 14pt;
-line-height: 16pt;
+font-size: 12pt;
+line-height: 14pt;
 }
 }
 
@@ -273,9 +273,23 @@ line-height: 16pt;
     
     .logo {letter-spacing: -22px;
     }
+    .Q, .Q2, .Q3, .Q4, .Q5, .Q6, .Q7, .Q8, .Q9, .Q10, .A, .A2, .A3, .A4, .A5, .A6, .A7, .A8, .A9, .A10, .text, .text-bottom {
+        width:96%;
+        left:10px;
+        
+        font-size: 12pt;
+        line-height: 14pt;
+        }
   }
 
   @media (max-width: 391px) {
+    .Q, .Q2, .Q3, .Q4, .Q5, .Q6, .Q7, .Q8, .Q9, .Q10, .A, .A2, .A3, .A4, .A5, .A6, .A7, .A8, .A9, .A10, .text, .text-bottom {
+        width:96%;
+        left:10px;
+        
+        font-size: 12pt;
+        line-height: 14pt;
+        }
     
     .logo {letter-spacing: -20px;
     }
