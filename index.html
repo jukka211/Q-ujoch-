@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Q:ujochö</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
   
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -27,17 +27,18 @@
   <div class="block9"></div>
   <div class="block10"></div>
 </div>
+<div class="wrap">
 <div class="text">Q:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The rhizome includes the best and the worst: potato and couchgrass, or the weed. Animal and plant, couchgrass is crabgrass. (Deleuze/Guattari 1977)</div>
-  <div class="Q">Q:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rhyzomaniac: Alles was sie schon immer und niemals über Verschwörungen wissen wollten</div>
-  <div class="Q2">Q:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PLAKATropolis I dreamed the pet I never had was selling weed butter in the streets & heidi klum taught me gymnastics. </div>
-  <div class="Q3">Q:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Blank Series: deadly cheese strips & the trippy licorice extravaganza</div>
-  <div class="Q4">Q:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kultursuppe revenge: deadly cheese strips & the trippy licorice extravaganza</div>
-  <div class="Q5">Q:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Be temporary / be permanent strips & the trippy licorice extravaganza</div>
-  <div class="Q6">Q:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Do everything / do nothing the trippy licorice extravaganza</div>
-  <div class="Q7">Q:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;k. u. k. u. k. Sanatorium zur Schießhalle & the trippy licorice extravaganza</div>
-  <div class="Q8">Q:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stahlstadtkinder immer im Duell deadly cheese strips & the trippy licorice extravaganza</div>
-  <div class="Q9">Q:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GartenquinÖ deadly cheese strips & the trippy licorice extravaganza</div>
-  <div class="Q10">Q:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sagra al Wirtshaus deadly cheese strips & the trippy licorice extravaganza</div>
+  <div class="Q">Q:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kultursuppe</div>
+  <div class="Q2">Q:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Be temporary / be permanent </div>
+  <div class="Q3">Q:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Do everything / do nothing</div>
+  <div class="Q4">Q:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;k. u. k. u. k. Sanatorium zur Schießhalle</div>
+  <div class="Q5">Q:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stahlstadtkinder immer im Duell</div>
+  <div class="Q6">Q:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GartenquinÖ</div>
+  <div class="Q7">Q:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sagra al Wirtshaus</div>
+  <div class="Q8">Q:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PLAKATropolis</div>
+  <div class="Q9">Q:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rhyzomaniac</div>
+  <div class="Q10">Q:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Blank Series is a deliberate schedule gap for spontaneity and unexpected events. It allows the team to react and seize opportunities.</div>
 
   <div class="logo">
   <div class="el" id="translateElement11">Q:ujochö</div>
@@ -52,47 +53,97 @@
   <div class="two" id="translateElement2">Q:ujochö</div>
   <div class="one" id="translateElement">Q:ujochö</div>
   </div>
+
+  <script>
+    // Function to generate random options
+    function getRandomOption() {
+        var options = ["q:ujOchÖ", "Q:ujochÖ", "Q:ujOchö"];
+        var randomIndex = Math.floor(Math.random() * options.length);
+        return options[randomIndex];
+    }
+    
+    // Change text on page load
+    window.onload = function() {
+        var ids = ["translateElement", "translateElement2", "translateElement3", "translateElement4", "translateElement5", "translateElement6", "translateElement7", "translateElement8", "translateElement9", "translateElement10", "translateElement11"];
+
+        // Pick a random option
+        var randomOption = getRandomOption();
+
+        ids.forEach(function(id) {
+            var element = document.getElementById(id);
+            if (element) {
+                element.innerText = randomOption;
+            } else {
+                console.log("Element with ID " + id + " not found.");
+            }
+        });
+    };
+</script>
+
   <div class="text-bottom" style="color:white !important;">
     A:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="text-decoration: none !important; color: inherit !important;">+43 732-21-67-13</a>, Waldeggstraße 16, 4020 Linz (AUT)
 </div>
 
 
 
- <div class="A">A:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fr, 10. November 2023, 20:00 Wirtshaus zur Schießhalle, Waldeggstraße 116, Linz</div>
- <div class="A2">A:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mi, 22. Juni 2022, 16:00 Uhr, Interuniversitäre Einrichtung Wissenschaft und Kunst, Bergstraße 12a, Salzburg</div>
- <div class="A3">A:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fr, 17. Jänner 2024, 20:30, Wirtshaus zur Schießhalle, Waldeggstraße 116, Linz</div>
- <div class="A4">A:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Do, 01. Jänner 2024, 12:00, Wirtshaus zur Schießhalle, Waldeggstraße 116, Linz</div>
- <div class="A5">A:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mo, 25. Jänner 2024, 10:30, Wirtshaus zur Schießhalle, Waldeggstraße 116, Linz</div>
- <div class="A6">A:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fr, 11. Jänner 2024, 16:00, Wirtshaus zur Schießhalle, Waldeggstraße 116, Linz</div>
- <div class="A7">A:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mi, 22. Jänner 2024, 22:00, Öffentlicher Raum der Stadt Linz</div>
- <div class="A8">A:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Di, 18. Jänner 2024, 13:30, Innen- und Umraum, ehem. Wirtshaus zur Schießhalle</div>
- <div class="A9">A:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So, 05. Jänner 2024, 18:00, Wirtshaus zur Schießhalle, Waldeggstraße 116, Linz</div>
- <div class="A10">A:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fr, 30. Jänner 2024, 19:30, Wirtshaus zur Schießhalle, Waldeggstraße 116, Linz</div>
+ <div class="A">A:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;qujOchÖ, Waldeggstraße 116, 4020 Linz</div>
+ <div class="A2">A:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inside and outside the former Wirtshaus zur Schießhalle</div>
+ <div class="A3">A:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;qujOchÖ, Waldeggstraße 116, 4020 Linz</div>
+ <div class="A4">A:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;qujOchÖ, Waldeggstraße 116, 4020 Linz</div>
+ <div class="A5">A:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;qujOchÖ, Waldeggstraße 116, 4020 Linz </div>
+ <div class="A6">A:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;qujOchÖ, Waldeggstraße 116, 4020 Linz </div>
+ <div class="A7">A:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;qujOchÖ, Waldeggstraße 116, 4020 Linz </div>
+ <div class="A8">A:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Public spaces in the city of Linz</div>
+ <div class="A9">A:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;qujOchÖ, Waldeggstraße 116, 4020 Linz</div>
+ <div class="A10">A:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Everywhere and nowhere</div>
 
  <div class="archive"> Archive</div>
  <div class="kontakt"> Contact</div>
  
- <script>
-  // Call the function whenever the window is resized
-  window.addEventListener('resize', setFontSize);
+ 
+ 
 
-  // Function to set font size based on screen width
-  function setFontSize() {
+ </div>
+ <style>
+  /* Define CSS variables for font size */
+  :root {
+    --default-font-size: calc(100vw / 3.85); /* Adjust this value as needed */
+    --small-screen-font-size: calc(100vw / 3.15); /* Adjust this value as needed */
+  }
+
+  /* Apply default font size */
+  #translateElement, #translateElement2, #translateElement3, #translateElement4, #translateElement5, #translateElement6, #translateElement7, #translateElement8, #translateElement9, #translateElement10, #translateElement11 {
+    font-size: var(--default-font-size);
+  }
+
+  /* Media query for screens narrower than 768px */
+  @media screen and (max-width: 767px) {
+    /* Update font size for smaller screens */
+    #translateElement, #translateElement2, #translateElement3, #translateElement4, #translateElement5, #translateElement6, #translateElement7, #translateElement8, #translateElement9, #translateElement10, #translateElement11 {
+      font-size: var(--small-screen-font-size);
+    }
+  }
+</style>
+
+<script>
+  // Function to update font size variables based on screen width
+  function updateFontSizeVariables() {
     var screenWidth = window.innerWidth;
-    var elements = document.querySelectorAll('#translateElement, #translateElement2, #translateElement3, #translateElement4, #translateElement5, #translateElement6, #translateElement7, #translateElement8, #translateElement9, #translateElement10, #translateElement11');
-    elements.forEach(function(element) {
-      // Get the current font size based on the screen width
-      var fontSize = screenWidth < 768 ? screenWidth / 2.8 : screenWidth / 3.79;
-      element.style.fontSize = fontSize + 'px';
-    });
+    var defaultFontSize = screenWidth / 3.85; // Default font size calculation
+    var smallScreenFontSize = screenWidth / 3.15; // Font size for smaller screens
+
+    // Update CSS variables with new font sizes
+    document.documentElement.style.setProperty('--default-font-size', defaultFontSize + 'px');
+    document.documentElement.style.setProperty('--small-screen-font-size', smallScreenFontSize + 'px');
   }
 
   // Call the function initially
-  setFontSize();
-</script>
- 
+  updateFontSizeVariables();
 
- 
+  // Call the function whenever the window is resized
+  window.addEventListener('resize', updateFontSizeVariables);
+</script>
+
 <script src="sketch.js"></script>
 </body>
 </html>

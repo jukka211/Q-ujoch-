@@ -8,45 +8,49 @@ body{
     background-color:#ffffff;
     transition: all 500ms ease-in-out;
     margin: 0;
-    width: 100%;
-    height:100%;
+    padding: 0;
+    width: 100vw;
+    height:100vh;
     overflow-x: hidden;
+    overflow-y: hidden;
     
     
    
     
 }
 
+
 .logo {
-    mix-blend-mode: exclusion;
-    position: absolute;
-    height:92vh;
+   
+    width: 100%;
+    height:94vh;
     display: flex;
-  
+    text-align: center;
     align-items: center;
+    letter-spacing: -20px;
     
    
 }
 
 
 .one, .two, .three, .four, .five, .six, .sev, .eit, .nin, .ten, .el {
-    
+   
     font-family:Helvetica-Medium;
     line-height: 240pt;
-    letter-spacing: -24px;
-    vertical-align: middle;
-    margin: 0;
+    
+    
     transition: all 50ms ease-in-out;
-    display: inline-block;
-    color: rgb(255, 255, 255);
     text-align: center;
-    transform: scale(1,1);
+    align-items: center;
+    color: rgb(255, 255, 255);
+    
+    
     padding-top: 0px;
     cursor: grab;
     user-select: none;
     position: absolute;
-    mix-blend-mode: exclusion;
-    left:20px;
+    mix-blend-mode: difference;
+    margin-left: 10px;
    
 }
 .el{
@@ -159,11 +163,13 @@ body{
 .archive{
     right:20px;
     bottom:10px;
+    z-index: 9999;
     
 }
 .kontakt{
     right:20px;
     top:10px;
+    z-index: 9999;
    
 }
 
@@ -194,35 +200,41 @@ text-underline-offset: 3px;
     margin-bottom: 1px;
 }
  
+/* For screens with a width of 2888px or wider */
 @media (min-width: 2888px) {
-    
-    .one, .two, .three, .four, .five, .six, .sev, .eit, .nin, .ten, .el {
-    font-size: 556pt;
-    line-height: 520pt;
-    }
+   
     .Q, .Q2, .Q3, .Q4, .Q5, .Q6, .Q7, .Q8, .Q9, .Q10, .A, .A2, .A3, .A4, .A5, .A6, .A7, .A8, .A9, .A10, .archive, .text, .text-bottom, .kontakt {
         font-size: 32pt;
         line-height: 32pt;
-    }}
+    }
+    .logo {
+        letter-spacing: -36px;
+    }
     
-@media (width: 2240px) {
-    
-    
-    .one, .two, .three, .four, .five, .six, .sev, .eit, .nin, .ten, .el {
-        font-size: 432pt;
-        line-height: 396pt;
-        }
-        .Q, .Q2, .Q3, .Q4, .Q5, .Q6, .Q7, .Q8, .Q9, .Q10, .A, .A2, .A3, .A4, .A5, .A6, .A7, .A8, .A9, .A10, .archive, .text, .text-bottom, .kontakt {
+}
+
+/* For screens with a width less than 2888px and greater than or equal to 2240px */
+@media (max-width: 2887px) and (min-width: 2240px) {
+   
+    .Q, .Q2, .Q3, .Q4, .Q5, .Q6, .Q7, .Q8, .Q9, .Q10, .A, .A2, .A3, .A4, .A5, .A6, .A7, .A8, .A9, .A10, .archive, .text, .text-bottom, .kontakt {
         font-size: 24pt;
         line-height: 24pt;
-    }}
+    }
+    .logo {
+        letter-spacing: -28px;
+    }
+    
+}
 
-@media (max-width: 1000px) {
+
+    @media only screen and (max-width: 900px) {
 body {
 overflow-y: hidden;
 }
+
 .one, .two, .three, .four, .five, .six, .sev, .eit, .nin, .ten, .el {
-left:5px;
+mix-blend-mode: difference;
+
 }
 
 .Q, .Q2, .Q3, .Q4, .Q5, .Q6, .Q7, .Q8, .Q9, .Q10, .A, .A2, .A3, .A4, .A5, .A6, .A7, .A8, .A9, .A10, .text, .text-bottom {
@@ -231,15 +243,11 @@ left:10px;
 z-index: -1;
 font-size: 14pt;
 line-height: 16pt;
-
 }
 
 .Q, .Q2, .Q3, .Q4, .Q5, .Q6, .Q7, .Q8, .Q9, .Q10, .text {
 top:40px;
 
-}
-.logo {
-width:100%;
 }
 
 .archive{
@@ -261,14 +269,14 @@ line-height: 16pt;
 
 
 
+@media (max-width: 431px) {
+    
+    .logo {letter-spacing: -22px;
+    }
+  }
 
-/* Default font size for mobile */
-#translateElement, #translateElement2, #translateElement3, #translateElement4, #translateElement5, #translateElement6, #translateElement7, #translateElement8, #translateElement9, #translateElement10, #translateElement11 {
-font-size: calc(100vw / 2.8);
-}
-
-  /* Change font size for desktop */
-@media only screen and (min-width: 1000px) {
-#translateElement, #translateElement2, #translateElement3, #translateElement4, #translateElement5, #translateElement6, #translateElement7, #translateElement8, #translateElement9, #translateElement10, #translateElement11 {
-font-size: calc(100vw / 3.79);
-}}
+  @media (max-width: 391px) {
+    
+    .logo {letter-spacing: -20px;
+    }
+  }
