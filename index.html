@@ -57,13 +57,13 @@
   <script>
     // Function to generate random options
     function getRandomOption() {
-        var options = ["q:ujOchÖ", "Q:ujochÖ", "q:ujOchö" , "q:UjOchö", "q:ujOcHö"];
+        var options = ["q:ujOchÖ", "Q:ujochÖ", "Q:ujOchö"];
         var randomIndex = Math.floor(Math.random() * options.length);
         return options[randomIndex];
     }
     
-    // Function to update text
-    function updateText() {
+    // Change text on page load
+    window.onload = function() {
         var ids = ["translateElement", "translateElement2", "translateElement3", "translateElement4", "translateElement5", "translateElement6", "translateElement7", "translateElement8", "translateElement9", "translateElement10", "translateElement11"];
 
         // Pick a random option
@@ -77,14 +77,9 @@
                 console.log("Element with ID " + id + " not found.");
             }
         });
-    }
-
-    // Update text every 1 second
-    window.onload = function() {
-        updateText(); // Call initially
-        setInterval(updateText, 300); // Update every 1 second
     };
 </script>
+
 
 
 
