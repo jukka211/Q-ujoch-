@@ -116,31 +116,18 @@ body{
 }
 .Q, .Q2, .Q3, .Q4, .Q5, .Q6, .Q7, .Q8, .Q9, .Q10, .A, .A2, .A3, .A4, .A5, .A6, .A7, .A8, .A9, .A10  {
     display: none;
+    width: 85%;
 }
 .Q, .Q2, .Q3, .Q4, .Q5, .Q6, .Q7, .Q8, .Q9, .Q10  {
     left:20px;
     top:10px;
-    width:90%;
+    
     mix-blend-mode: exclusion;
     
 }
 
 
-.description {
-    font-family:Helvetica-Medium;
-    font-size: 18pt;
-    line-height: 18pt;
-    letter-spacing: 0.5px;
-    color: rgb(255, 255, 255);
-    position: absolute;
-    left:107px;
-    top:40px;
-    text-indent: 40px;
-    width:85%;
-    mix-blend-mode: exclusion;
-    background-color: red;
-    display: none;
-}
+
 
 .text {
     left:20px;
@@ -158,19 +145,21 @@ body{
 .A, .A2, .A3, .A4, .A5, .A6, .A7, .A8, .A9, .A10 {
     left:20px;
     bottom:10px;
-    width:90%;
+    
     
 }
 .archive{
     right:20px;
     bottom:10px;
     z-index: 9999;
+    color: rgb(255, 255, 255);
     
 }
 .kontakt{
     right:20px;
     top:10px;
     z-index: 9999;
+    color: rgb(255, 255, 255);
    
 }
 
@@ -199,6 +188,11 @@ text-underline-offset: 3px;
     flex:1;
     background-color: transparent;
     margin-bottom: 1px;
+}
+
+a {
+    text-decoration: none;
+    color:white;
 }
  
 /* For screens with a width of 2888px or wider */
