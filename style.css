@@ -266,7 +266,7 @@ line-height: 14pt;
 
 @media (max-width: 431px) {
     
-    .logo {letter-spacing: -22px;
+    .logo {letter-spacing: -24px;
     }
     .Q, .Q2, .Q3, .Q4, .Q5, .Q6, .Q7, .Q8, .Q9, .Q10, .A, .A2, .A3, .A4, .A5, .A6, .A7, .A8, .A9, .A10, .text, .text-bottom {
         width:96%;
@@ -286,6 +286,6 @@ line-height: 14pt;
         line-height: 14pt;
         }
     
-    .logo {letter-spacing: -20px;
+    .logo {letter-spacing: -22px;
     }
   }
