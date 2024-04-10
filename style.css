@@ -5,7 +5,7 @@
 
 
 body{
-    background-color:#ffffff;
+    background-color:#ff0000;
     transition: all 500ms ease-in-out;
     margin: 0;
     padding: 0;
@@ -183,7 +183,7 @@ text-underline-offset: 3px;
     text-decoration-thickness:1.4px;
     text-underline-offset: 3px;
 }
-.block1, .block2, .block3,.block4,.block5,.block6,.block7,.block8,.block9,.block10 {
+.block0, .block1, .block2, .block3,.block4,.block5,.block6,.block7,.block8,.block9,.block10 {
     z-index: 999;
     flex:1;
     background-color: transparent;

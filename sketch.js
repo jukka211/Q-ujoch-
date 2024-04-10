@@ -84,6 +84,12 @@ $(document).ready(function() {
         $(this).siblings('.Q, .A, .Q2, .A2, .Q3, .A3, .A4, .A5, .A6, .A7, .A8, .A9, .Q4, .Q5, .Q6, .Q7, .Q8, .Q9').css('display', 'none');
         $(this).css('display', 'block');
     });
+ 
+    $('.block0').hover(function() {
+        $('.Q, .A, .Q2, .A2, .Q3, .A3, .A4, .A5, .A6, .A7, .A8, .A9, .A10, .Q4, .Q5, .Q6, .Q7, .Q8, .Q9, .Q10, .text, .text-bottom').css('display', 'none');
+        $('.text, .text-bottom').css('display', 'block');
+        $('body').css('background', 'red');
+    });
 
     $('.block1').hover(function() {
         $('.Q, .A, .Q2, .A2, .Q3, .A3, .A4, .A5, .A6, .A7, .A8, .A9, .A10, .Q4, .Q5, .Q6, .Q7, .Q8, .Q9, .Q10, .text, .text-bottom').css('display', 'none');
