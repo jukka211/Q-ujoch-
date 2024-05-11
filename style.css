@@ -2,6 +2,10 @@
     font-family:Helvetica-Medium;
     src: url("helvetica_medium.ttf");
   }
+  @font-face {
+    font-family:Helvetica-Bold;
+    src: url("HelveticaNeueBold.otf");
+  }
 
 
 body{
@@ -27,7 +31,7 @@ body{
     display: flex;
     text-align: center;
     align-items: center;
-    letter-spacing: -20px;
+    letter-spacing: -30px;
     
    
 }
@@ -35,7 +39,7 @@ body{
 
 .one, .two, .three, .four, .five, .six, .sev, .eit, .nin, .ten, .el {
    
-    font-family:Helvetica-Medium;
+    font-family:Helvetica-Bold;
     line-height: 240pt;
     
     
@@ -103,8 +107,8 @@ body{
 }
 .Q, .Q2, .Q3, .Q4, .Q5, .Q6, .Q7, .Q8, .Q9, .Q10, .A, .A2, .A3, .A4, .A5, .A6, .A7, .A8, .A9, .A10, .archive, .text, .text-bottom, .kontakt {
     font-family:Helvetica-Medium;
-    font-size: 18pt;
-    line-height: 18pt;
+    font-size: 14pt;
+    line-height: 14pt;
     letter-spacing: 0.5px;
     color: rgb(255, 255, 255);
     text-decoration: none;
